@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@300&family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@300&family=Poppins:wght@500&display=swap");
+body {
+  background-color: antiquewhite;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  font-family: "Oswald", sans-serif;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 60px;
+  background-color: black;
+  color: white;
+}
+nav ul li {
+  padding: 0px 15px;
+}
+.brand img {
+  width: 61px;
+  padding: 0px 10px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.container {
+  min-height: 70vh;
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  margin: 23px auto;
+  width: 70%;
+  padding: 34px;
+  border-radius: 20px;
+}
+.bottom {
+  position: sticky;
+  height: 90px;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icons {
+  margin-top: 10px;
+}
+.icons i {
+  cursor: pointer;
+}
+#myProgressBar {
+  width: 80vw;
+  text-align: center;
+  cursor: pointer;
+}
+
+.songItem {
+  height: 50px;
+  display: flex;
+  background-color: white;
+  color: black;
+
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 19px;
+  padding: 4px;
+}
+.songItem img {
+  width: 50px;
+  height: 49px;
+  margin: 0 8px;
+  border-radius: 25px;
+}
+.timeStamp {
+  padding: 0 23px;
+}
+.playButton {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.songItemContainer {
+  margin-top: 35px;
+}
+.img_folder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+  max-width: 650px;
+  max-height: 650px;
+}
